@@ -1,0 +1,21 @@
+STOCK PRICE PREDICTOR:  This project is a simple system to predict stock prices using different time series forecasting methods. We use Python and libraries like `numpy`, `pandas`, `matplotlib`, `scikit-learn`, `statsmodels`, and `yfinance`.
+
+INTRODUCTION:  We analyse stock price data to find patterns and trends. This helps us predict future stock prices. We use moving average, exponential smoothing, and ARIMA models for this purpose.
+
+PREREQUISITES: Set Up the Environment
+1. Clone the repository:
+2. Create and activate a virtual environment:
+3. Install the required libraries: numpy pandas matplotlib scikit-learn statsmodels yfinance
+
+MODEL USED:
+1. Moving Average: Predicts the next value as the average of past values. Simple and often effective.
+2. Exponential Smoothing: Gives more weight to recent values for prediction. Useful for trends.
+3. ARIMA (Autoregressive Integrated Moving Average): A complex model for more accurate and long-term forecasts. It considers dependencies between values.
+
+PROJECT STRUCTURE:
+Virtual environment (.venv)
+Project documentation (READ ME)
+Main script (Main.py)
+Required libraries (prerequisites)
+
+RESULT: The project generates graphs showing historical stock prices, moving average, exponential smoothing, ARIMA model fitting, and future forecasts. The accuracy of the ARIMA model is measured using RMSE (Root Mean Squared Error).
